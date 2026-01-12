@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<!--  Made by Anna Chan. Used some tutorials for JS features like the cart. Also used API to generate random items -->
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>The Shopper- The Finest Quality</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+
+  <!-- <link href="./all.min.css" rel="stylesheet" type="text/css"> -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.4.2/css/all.css">
+  <script src="https://kit.fontawesome.com/088a58e9be.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+  <div class = "navbar">
+    <div class= "nav-left">
+      <h1>The Shopper</h1>
+      <div class= "nav-links">
+        <a href= "#">Top Products</a>
+        <a href= "#">About Us</a>
+        <a href= "#">Contact</a>
+      </div>
+    </div>
+    <div class= "nav-right">
+      <div class= "cart-icon-section">
+        <p>0</p>
+        <i class="fa-solid fa-cart-shopping"></i>
+      </div>
+    </div>
+  </div>
+
+  <!-- cart feature -->
+  <div class= "cart-modal">
+    <div class= "cart">
+      <div class= "cart-header">
+        <h1>Shopping Cart</h1>
+      </div>
+      <p id= "cart-modal-close">X</p>
+      <div class= "cart-table">
+        <table></table>
+      </div>
+    </div>
+  </div>
+
+
+  <div class= "section">
+    <div id= "products">
+    <h1>Top Products of the Week</h1>
+    <!-- <div class= "productsContainer">
+      <div class= "product">
+        <img src= "monke.jpg">
+        <div class= "product-text">
+          <div class= "product-text-left">
+            <h3>Chicken Nuggets</h3>
+            <button class= "add-cart">Add to Cart</button>
+          </div>
+          <div class="product-text-right">
+            <p>$500</p>
+          </div>
+        </div>
+      </div>
+      <div class= "product">
+        <img src= "monke.jpg">
+        <div class= "product-text">
+          <div class= "product-text-left">
+            <h3>Tater Tots</h3>
+            <button class= "add-cart">Add to Cart</button>
+          </div>
+          <div class="product-text-right">
+            <p>$400</p>
+          </div>
+        </div>
+      </div>
+      <div class= "product">
+        <img src= "monke.jpg">
+        <div class= "product-text">
+          <div class= "product-text-left">
+            <h3>Pizza Slices</h3>
+            <button class= "add-cart">Add to Cart</button>
+          </div>
+          <div class="product-text-right">
+            <p>$200</p>
+          </div>
+        </div>
+      </div>
+      <div class= "product">
+        <img src= "monke.jpg">
+        <div class= "product-text">
+          <div class= "product-text-left">
+            <h3>Gelato</h3>
+            <button class= "add-cart">Add to Cart</button>
+          </div>
+          <div class="product-text-right">
+            <p>$1000</p>
+          </div>
+        </div>
+      </div>
+    </div> -->
+  </div>
+  </div>
+
+
+
+
+  <script src="script.js"></script>
+  <script src="storeItems.js"></script>
+</body>
+
+</html>
